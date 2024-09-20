@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b8d8ef;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #186ab4;
+    color: #F5F7F8;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    background-color: #f9943b;
+}
+
+#bio p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+#hobbies .hobby-list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+#hobbies .hobby {
+    text-align: center;
+}
+
+#hobbies img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 2px #f9943b;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background-color: #f8e3c4;
+}
+
+th {
+    background-color:#f9943b;
+}
+
+footer {
+    background-color:#186ab4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
